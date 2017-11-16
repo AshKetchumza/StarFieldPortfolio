@@ -20,8 +20,8 @@ function draw() {
     techs[i].update();
     techs[i].show();
   }
-  for (var i = 0; i < techs.length; i++) {
-    stars[i].update();
-    stars[i].show();
+  for (var j = 0; j < stars.length; j++) {
+    stars[j].update();
+    stars[j].show();
   }
 }
