@@ -13,8 +13,27 @@
     <script src="https://use.fontawesome.com/8666acfd7d.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script>
-      //console.meme("Not sure if memes in dev tools is stupid", "or disastrous.", "http://i.imgur.com/vu4zTYT.jpg", 400, 300);
-      console.image("https://media.giphy.com/media/jOuSY2ZXnYAkE/giphy.gif");
+      var loadArray = new Array(
+        "https://media.giphy.com/media/BtedgmzGNCiuk/giphy.gif",
+        "https://media.giphy.com/media/jOuSY2ZXnYAkE/giphy.gif",
+        "https://media.giphy.com/media/l2YWxAhxFSoGLEdqg/giphy.gif",
+        "https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif",
+        "https://media.giphy.com/media/Ld0P4AdeSDjoY/giphy.gif",
+        "https://media.giphy.com/media/9ohlKnRDAmotG/giphy.gif",
+        "https://media.giphy.com/media/Av72crBYNiEYo/giphy.gif",
+        "https://media.giphy.com/media/L4HWjj0sIXYty/giphy.gif",
+        "https://media.giphy.com/media/UZA15w44oCT1m/giphy.gif",
+        "https://media.giphy.com/media/O5NyCibf93upy/giphy.gif",
+        "https://media.giphy.com/media/QgixZj4y3TwnS/giphy.gif",
+        "https://media.giphy.com/media/Willba4S2t65W/giphy.gif",
+        "https://media.giphy.com/media/l396GDVdFycbmiZDG/giphy.gif",
+        
+
+      )
+      var loadIndex = Math.floor(Math.random() * loadArray.length);
+      var loadImage = loadArray[loadIndex];
+      var imageToShow = loadImage;
+      console.image(imageToShow);
     </script>
   </head>
   <style>
