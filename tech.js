@@ -27,7 +27,15 @@ function Tech() {
         "SCSS",
         "Encryption",
         "JSON",
-        "Python"
+        "Python",
+        "HTML5",
+        "JQuery",
+        "ASP.NET",
+        "Ionic",
+        "Cordova",
+        "Android",
+        "iOS",
+        "Xamarin"
     );
                 var loadIndex = Math.floor(Math.random() * loadArray.length);
                 var loadMessage = loadArray[loadIndex];

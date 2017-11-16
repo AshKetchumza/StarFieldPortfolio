@@ -9,7 +9,7 @@ function setup() {
   for (var i = 0; i < 3000; i++) {
     techs[i] = new Tech();
     stars[i] = new Star();
-  }
+  }    
 }
 
 function draw() {
