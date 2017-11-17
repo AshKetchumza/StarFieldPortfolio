@@ -1,18 +1,17 @@
-
 var techs = [];
 var stars = [];
 
 var speed;
 
 function setup() {
-  //Comment out for local running    
+  //Comment out for local running
   //song = loadSound('assets/song.mp3');
   masterVolume(0.5);
   createCanvas(window.innerWidth, window.innerHeight);
   for (var i = 0; i < 3000; i++) {
     techs[i] = new Tech();
     stars[i] = new Star();
-  }    
+  }
 }
 
 function mousePressed() {
