@@ -31,15 +31,17 @@ function Tech() {
         "HTML5",
         "JQuery",
         "ASP.NET",
-        "Ionic",
-        "Cordova",
         "Android",
         "iOS",
-        "Xamarin"
+        "Xamarin",
+        "P5js",
+        "Nginx",
+        "Apache",
+        "VBScript"
     );
                 var loadIndex = Math.floor(Math.random() * loadArray.length);
                 var loadMessage = loadArray[loadIndex];
-                var TextToShow = loadMessage; 
+                var TextToShow = loadMessage;
 
   this.update = function() {
     this.z = this.z - speed;
@@ -66,9 +68,7 @@ function Tech() {
 
     this.pz = this.z;
 
-    stroke(255);
-    //line(px, py, sx, sy);
-    
+    //stroke(255);
     text(TextToShow,sx, sy, r, r)
 
   }
