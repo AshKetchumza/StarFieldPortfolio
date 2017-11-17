@@ -14,13 +14,13 @@ function setup() {
   }
 }
 
-function mousePressed() {
-  if ( song.isPlaying() ) { // .isPlaying() returns a boolean
-    song.stop();
-  } else {
-    song.play();
-  }
-}
+//function mousePressed() {
+//  if ( song.isPlaying() ) { // .isPlaying() returns a boolean
+//    song.stop();
+//  } else {
+//    song.play();
+//  }
+//}
 
 function draw() {
   speed = map(mouseX, 0, width, 0, 25);
