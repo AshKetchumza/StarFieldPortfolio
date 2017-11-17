@@ -47,12 +47,12 @@
       <p style="font-size:15px;">ASHLEY SANDERS</p>
       <ul class="icons" align="center">
         <li id="playAudio"><a onclick="playAudio()" class="icon fa fa-volume-up"></a></li>        
-        <li id="pauseAudio" style="display:none;"><a onclick="pauseAudio()" class="icon fa fa-volume-down"></a></li>
+        <li id="pauseAudio" style="display:none;"><a onclick="pauseAudio()" class="icon fa fa-volume-off"></a></li>
         <li><a target="_blank" href="https://github.com/AshKetchumza" class="icon fa fa-github"></a></li>
         <li><a target="_blank" href="https://twitter.com/AshMikeKetchum" class="icon fa fa-twitter"></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/ashmayosanders/?hl=en" class="icon fa fa-instagram"></a></li>        
+<!--        <li><a target="_blank" href="https://www.instagram.com/ashmayosanders/?hl=en" class="icon fa fa-instagram"></a></li>        -->
       </ul>
-      <p style="font-size:12px; color:#fff">Predominantly a cloud software dev, experimenting with machine learning</p>
+      <p style="font-size:12px; color:#fff">Cloud and mobile software engineer | Experimenting with machine learning</p>
       <p style="font-size:11px; color:#808080">Move the mouse left and right to slow down or speed things up a little</p>
      
       <audio id="myAudio">
@@ -61,7 +61,8 @@
           Your browser does not support the audio element.
       </audio>
         <script>
-        var x = document.getElementById("myAudio");         
+        var x = document.getElementById("myAudio");
+        x.volume = 0.1;
         function playAudio() { 
             x.play();
             $("#pauseAudio").show();
