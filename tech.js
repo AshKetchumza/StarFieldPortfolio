@@ -37,7 +37,10 @@ function Tech() {
         "P5js",
         "Nginx",
         "Apache",
-        "VBScript"
+        "VBScript",
+        "TensorFlow",
+        "NeuralNetworks",
+        "MachineLearning"
     );
                 var loadIndex = Math.floor(Math.random() * loadArray.length);
                 var loadMessage = loadArray[loadIndex];
